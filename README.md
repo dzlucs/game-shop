@@ -1,61 +1,29 @@
-Criar um repositório no GitHub com a estrutura do Gitflow, incluindo pelo menos as branches principais "main" e "develop."
-Utilizar componentes de um framework CSS, como Bootstrap, Materialize ou outro à sua escolha.
- Apresentar as telas com layout responsivo, adaptando-se a diferentes tamanhos de tela, usando um framework CSS ou implementações personalizadas.
- Desenvolver o layout da aplicação com componentes, tornando o cabeçalho e o rodapé componentes reutilizáveis.
- Aplicar pelo menos dois tipos de data-binding, como Interpolation, Property Binding, Event Binding, Two-Way Data Binding,
- Empregar variáveis de template e a anotação ViewChild para interagir com elementos do DOM ou componentes diretamente no template ou no código TypeScript do aplicativo.
- Estabelecer a passagem de dados entre componentes por meio da hierarquia de componentes, empregando as anotações @Input e @Output.
- Transferir dados, por meio de serviços, entre componentes que não estão diretamente relacionados.
- Mapear os componentes às rotas no módulo de rotas, criando uma estrutura de navegação eficiente.
- Permitir a navegação fluida entre as diferentes páginas do aplicativo por meio de links e botões de navegação.
- Validar os campos do formulário com expressões regulares (REGEX) e apresentar as mensagens de erro.
- Implementar máscaras em campos de formulário, quando necessário, para melhorar a experiência do usuário ao inserir dados.
- Desabilitar o botão de envio (submit) enquanto o formulário estiver em um estado inválido.
- Realizar requisições à API com tratamento adequado das respostas de sucesso e erro com Promises.
- Realizar requisições à API com tratamento adequado das respostas de sucesso e erro com Observables.
- Criar o cadastro completo de uma entidade, incluindo operações de criação, leitura, atualização e exclusão (CRUD) utilizando uma API, como o JSON Server.
- Utilizar o armazenamento local (LocalStorage ou SessionStorage) para armazenar dados temporários, quando necessário.
- Aplicar a diretiva estrutural ngFor para apresentar uma lista dinâmica de dados em seu aplicativo.
- Utilizar a diretiva ngIf para controlar a exibição ou ocultação de elementos com base em condições específicas.
- Formatar a apresentação de dados com Pipes, de acordo com os requisitos do aplicativo.
- Executar o processo de build da aplicação e realizar o deploy para tornar o aplicativo acessível online.
+### RA1 - Utilizar Frameworks CSS para estilização de elementos HTML e criação de layouts responsivos.
+- [ ] ID 01 - Implementa um layout responsivo de uma página web utilizando um Framework CSS, como Bootstrap ou Tailwind, que se adapta adequadamente a diferentes tamanhos de tela e dispositivos.
+- [ ]  ID 02 - Utiliza técnicas avançadas de CSS, como Flexbox ou Grid Layout, para criar layouts responsivos e fluidos em diferentes resoluções de tela.
+- [ ]  ID 03 - Utiliza os componentes CSS e JavaScript oferecidos por um Framework CSS, como cards, modais ou carrosséis, aplicando estilos personalizados conforme o necessário.
+- [ ]  ID 04 - Implementa um layout fluido e responsivo utilizando unidades de viewport relativas (vw, vh) em vez de unidades fixas (px) para criar uma experiência de usuário consistente em diferentes dispositivos e tamanhos de tela.
+- [ ]  ID 05 - Implementa animações em elementos da página, como hover, fadeIn/fadeOut, slideIn/slideOut, utilizando CSS Animations ou bibliotecas de animação, como o Animate.css, para fornecer feedback visual ao usuário e criar uma experiência interativa.
+- [ ]   
+- [ ]  ID 07 - Aplica um Design System consistente, definindo diretrizes de estilo, cores, tipografia e padrões de componentes que são seguidos em toda a aplicação, garantindo uma experiência de usuário uniforme e atraente.
 
+### RA2 - Realizar tratamento de formulários e aplicar validações customizadas no lado cliente, utilizando a API do HTML e expressões regulares (REGEX).
+- [ ]  ID 08 - Implementa tratamento de formulários no lado cliente com apresentação de mensagens de erro ou sucesso, utilizando os recursos da API do HTML, como validação de campos obrigatórios, tipo de entrada e limites de caracteres, garantindo que os dados inseridos sejam válidos antes de serem enviados para o servidor.
+- [ ]  ID 09 - Aplica expressões regulares (REGEX) de forma eficiente para realizar validações customizadas nos campos de formulários, como formatos específicos de e-mail, telefone, data ou outros padrões personalizados definidos pelos requisitos do projeto.
+- [ ]  ID 10 - Incorpora elementos de listagem, como checkbox, radio ou select, de maneira eficiente em formulários web, possibilitando a seleção e coleta precisa de dados pelos usuários.
+- [ ]  ID 11 - Realiza a escrita e leitura de dados no Web Storage, permitindo a persistência de informações entre sessões de usuário e fornecendo uma maneira eficaz de armazenar dados localmente no navegador.
 
- Criar um repositório no GitHub com a estrutura do Gitflow, incluindo pelo menos as branches principais "main" e "develop."
- Utilizar componentes de um framework CSS, como Bootstrap, Materialize ou outro à sua escolha.
- Apresentar as telas com layout responsivo, adaptando-se a diferentes tamanhos de tela, usando um framework CSS ou implementações personalizadas.
- Desenvolver o layout da aplicação com componentes, tornando o cabeçalho e o rodapé componentes reutilizáveis.
- Aplicar pelo menos dois tipos de data-binding, como Interpolation, Property Binding, Event Binding, Two-Way Data Binding,
- Empregar variáveis de template e a anotação ViewChild para interagir com elementos do DOM ou componentes diretamente no template ou no código TypeScript do aplicativo.
- Estabelecer a passagem de dados entre componentes por meio da hierarquia de componentes, empregando as anotações @Input e @Output.
- Transferir dados, por meio de serviços, entre componentes que não estão diretamente relacionados.
- Mapear os componentes às rotas no módulo de rotas, criando uma estrutura de navegação eficiente.
- Permitir a navegação fluida entre as diferentes páginas do aplicativo por meio de links e botões de navegação.
- Validar os campos do formulário com expressões regulares (REGEX) e apresentar as mensagens de erro.
- Implementar máscaras em campos de formulário, quando necessário, para melhorar a experiência do usuário ao inserir dados.
- Desabilitar o botão de envio (submit) enquanto o formulário estiver em um estado inválido.
- Realizar requisições à API com tratamento adequado das respostas de sucesso e erro com Promises.
- Realizar requisições à API com tratamento adequado das respostas de sucesso e erro com Observables.
- Criar o cadastro completo de uma entidade, incluindo operações de criação, leitura, atualização e exclusão (CRUD) utilizando uma API, como o JSON Server.
- Utilizar o armazenamento local (LocalStorage ou SessionStorage) para armazenar dados temporários, quando necessário.
- Aplicar a diretiva estrutural ngFor para apresentar uma lista dinâmica de dados em seu aplicativo.
- Utilizar a diretiva ngIf para controlar a exibição ou ocultação de elementos com base em condições específicas.
- Formatar a apresentação de dados com Pipes, de acordo com os requisitos do aplicativo.
- Executar o processo de build da aplicação e realizar o deploy para tornar o aplicativo acessível online.
-Manual de execução
-Clonar o repositório com git clone
-Fazer checkout no branch develop que contém as modificações mais recentes
-Abrir o projeto no editor Visual Studio Code (VS Code)
-Abrir um terminal pelo VSCode ou qualquer terminal do seu Sistema Operacional apontando para o diretório raiz do projeto
-Instalar as dependências contidas no package.json
-Comando: npm i
-(Opcional) Instalar o JSON Server globalmente disponível em https://www.npmjs.com/package/json-server
-Comando: npm i -g json-server
-É opcional porque a dependência já vem cadastrada no arquivo package.json para instalação local na pasta node_modules
-Executar a API Fake (JSON Server) via um dos seguintes comandos:
-Execução via script registrado no package.json: npm run json:server:routes
-Ou via Execução explícita: json-server --watch db.json --routes routes.json
-O comando para execução do JSON Server deve ser aplicado no diretório raiz do projeto, ou seja, que contém o arquivo db.json e routes.json.
-Por padrão, a aplicação JSON Server executa no endereço localhost:3000
-Abrir um novo terminal pelo VSCode e então executar o projeto Angular
-Comando: ng s -o
+### RA3 - Aplicar ferramentas para otimização do processo de desenvolvimento web, incluindo Node.js, NPM e linters para garantir a qualidade do código, juntamento com boas práticas de versionamento e organização de projetos.
+- [ ]  ID 12 - Configura adequadamente um ambiente de desenvolvimento usando Node.js e NPM para gerenciar pacotes e dependências do projeto, facilitando a instalação e o uso de bibliotecas e ferramentas de terceiros.
+
+ - [ ] ID 14 - Adota boas práticas de versionamento utilizando sistemas como Git, criando e gerenciando repositórios com branches adequados.
+
+ - [ ] ID 16 - Organiza os arquivos do projeto em uma estrutura coerente, lógica e modular, facilitando a localização, manutenção e escalabilidade.
+
+### RA4 - Aplicar bibliotecas de funções e componentes em JavaScript para aprimorar a interatividade de páginas web.
+- [ ]  ID 18 - Utiliza a biblioteca jQuery para manipular o DOM e aprimorar a interatividade das páginas web, implementando funcionalidades como eventos, animações e manipulação de elementos HTML de forma eficiente.
+- [ ]  ID 19 - Seleciona e integra com sucesso um plugin jQuery, como o jQuery Mask Plugin ou outro plugin relevante para o projeto, a fim de melhorar a funcionalidade ou a aparência de elementos específicos em uma página web.
+
+### RA5 - Efetuar requisições assíncronas para uma API fake e APIs públicas, permitindo a obtenção e manipulação de dados dinamicamente.
+- [ ]  ID 22 - Realiza requisições assíncronas para APIs públicas, utilizando adequadamente conceitos como AJAX, Fetch API ou bibliotecas, para obter dados dinâmicos e realizar a manipulação e exibição dos resultados na página web.
+- [ ]  ID 23 - Realiza requisições assíncronas para uma API fake utilizando adequadamente conceitos como AJAX, Fetch API ou bibliotecas, para manipular dados e exibição dos resultados na página web.
