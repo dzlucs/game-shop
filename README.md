@@ -1,3 +1,9 @@
+### Link para protótipo no Figma:
+https://www.figma.com/design/N9hOWRKsKN7s5SHqj1ptDy/gameboxd?node-id=2-88347&t=6CrS6Pl3LQWoxU7U-1
+
+### Link para vídeo no Youtube:
+ADICIONAR
+
 ### RA1 - Utilizar Frameworks CSS para estilização de elementos HTML e criação de layouts responsivos.
 - [ ] ID 01 - Implementa um layout responsivo de uma página web utilizando um Framework CSS, como Bootstrap ou Tailwind, que se adapta adequadamente a diferentes tamanhos de tela e dispositivos.
 - [ ]  ID 02 - Utiliza técnicas avançadas de CSS, como Flexbox ou Grid Layout, para criar layouts responsivos e fluidos em diferentes resoluções de tela.

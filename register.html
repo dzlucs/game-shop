@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 	<head>
 		<title>Gameboxd</title>
 		<meta charset="utf-8">
@@ -10,47 +11,35 @@
 	</head>
 
 	<body class="bg-dark">
-	<main class="container d-flex flex-column align-items-center justify-content-center vh-100 bg-dark text-light">
-		<div class="row text-center">
-				<div class="col-md-6 offset-md-3">
-				<img src="img/logo.svg" class="mb-1">
-				<h1 class="text-center mb-4">Register to Gameboxd</h1>
-				<form class="container row ">
-					<p>Adventure starts here</p>
-					<p class="small">Easy and fun!</p>
-					<div class="mb-3">
-						<input type="text" class="form-control" id="username" placeholder="Create your username" required pattern="^[a-zA-Z0-9_-]{3,15}$" title="Nome de usuário deve ter entre 3 e 15 caracteres e pode conter letras, números, hifens e underscores.">
-					</div>
-					<div class="mb-3">
-						<input type="email" class="form-control" id="email" placeholder="Type your e-mail" required>
-					</div>
-					<div class="mb-3">
-						<input type="password" class="form-control" id="password" placeholder="Create a password" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" title="A senha deve ter no mínimo 8 caracteres, incluindo letras e números.">
-					</div>
-					<div class="mb-3">
-						<input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" title="A senha deve ter no mínimo 8 caracteres, incluindo letras e números.">
-					</div>
-					<div class="mb-3 form-check">
-						<input type="checkbox" class="form-check-input" id="newsletter">
-						<label class="form-check-label small" for="newsletter">I agree to the privacy policy & terms</label>
-					</div>
-					<button type="submit" class="btn btn-primary w-100">Register</button>
-				</form>
+		<main class="container d-flex align-items-center justify-content-center vh-100 bg-dark text-light">
+			<div class=" text-center">
+					<div class="col-md-6 offset-md-3">
+					<img src="img/logo.svg" class="mb-1">
+					<h1 class="text-center mb-4">Register to Gameboxd</h1>
+					<form class="container row ">
+						<p>Adventure starts here</p>
+						<p class="small">Easy and fun!</p>
+						<div class="mb-3">
+							<input type="text" class="form-control" id="username" placeholder="Create your username" required pattern="^[a-zA-Z0-9_-]{3,15}$" title="Nome de usuário deve ter entre 3 e 15 caracteres e pode conter letras, números, hifens e underscores.">
+						</div>
+						<div class="mb-3">
+							<input type="email" class="form-control" id="email" placeholder="Type your e-mail" required>
+						</div>
+						<div class="mb-3">
+							<input type="password" class="form-control" id="password" placeholder="Create a password" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" title="A senha deve ter no mínimo 8 caracteres, incluindo letras e números.">
+						</div>
+						<div class="mb-3">
+							<input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" title="A senha deve ter no mínimo 8 caracteres, incluindo letras e números.">
+						</div>
+						<div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="newsletter">
+							<label class="form-check-label small" for="newsletter">I agree to the privacy policy & terms</label>
+						</div>
+						<button type="submit" class="btn btn-primary w-100">Register</button>
+					</form>
+				</div>
 			</div>
-		</div>
-	</main>
-
-	<script src="js/bootstrap.bundle.js"></script>
-	<script>
-		document.querySelector('form').addEventListener('submit', function(e) {
-			const password = document.getElementById('password').value;
-			const confirmPassword = document.getElementById('confirmPassword').value;
-
-			if (password !== confirmPassword) {
-				e.preventDefault();
-				alert('As senhas não coincidem!');
-			}
-		});
-	</script>
-</body>
+		</main>
+		<script src="js/bootstrap.bundle.js"></script>
+	</body>
 </html>

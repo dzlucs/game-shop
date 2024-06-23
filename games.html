@@ -2,41 +2,49 @@
 <html lang="pt-br">
 
 	<head>
-		<title>Gameboxd</title>
+		<title>Gameboxd • Games</title>
 		<meta charset="utf-8">
 		<meta name="referrer" content="never">
 		<meta name="referrer" content="no-referrer">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/bootstrap.css">
-		<link
-		rel="stylesheet"
-		href="node_modules/animate.css/animate.css"
-	  />
+		<link rel="stylesheet" href="node_modules/animate.css/animate.css"/>
 	</head>
 
 	<body class="bg-dark text-light">
 
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" style="height: 3.5rem;">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top mb-3" aria-label="Offcanvas navbar large">
 			<div class="container-fluid">
-				<div class="col-md-12">
-					<a class="navbar-brand justify-content-start col-1" href="#">Gameboxd</a>
-					<img src="img/logo.svg" alt="Logo" class="col-4" style="height: 2rem">
-						<button class="navbar-toggler col-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+				<div class="d-flex justify-content-center">
+					<div class="col-4 text-end">
+						<a class="navbar-brand" href="#">Gameboxd</a>
+					</div>
+				<div class="col-4 text-center">
+					<img src="img/logoS.svg" alt="logo" style="height: 30px; width: auto;">
+				</div>
+				<div class="col-4 text-start">
+					<button class="navbar-toggler rounded-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
 						<span class="navbar-toggler-icon"></span>
-						</button>
-					<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav ms-auto">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="index.html">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="games.html">Games</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="profile.html">Profile</a>
-						</li>
-					</ul>
-				
+					</button>
+					<div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+						<div class="offcanvas-header">
+							<h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
+							<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+						</div>
+						<div class="offcanvas-body">
+							<ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+								<li class="nav-item">
+									<a class="nav-link" href="index.html">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="games.html">Games</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="profile.html" role="button">Profile</a>
+								</li>
+							</ul>
+						</div>		
 					</div>
 				</div>
 			</div>
@@ -47,60 +55,71 @@
 			<p class="text-center fw-bold">Find your next game now.</p>
 		</div>
 
+		<div class="container-fluid py-3">
+			<div class="row justify-content-center">
+			  <div class="col-8">
+				<form class="d-flex">
+				  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+				  <button class="btn btn-outline-success" type="submit">Search</button>
+				</form>
+			  </div>
+			</div>
+		</div>
+
 		<div class="container">
 			<div class="text-center">
-				<h1>Favorite games</h1>
+				<h1 class="animate__animated animate__bounce">Community's Favorite games of the week</h1>
 				<ul class="list-unstyled">
-
-						<a href=""><img src="img/cyber77.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/avatar.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/stray.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/fortnite.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/minecraft.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/witcher3.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/baldursgate.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/hogwarts2.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/civilization.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/assassinscreed.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/gta v.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/alanwakeii.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/apex.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/tekken8.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/starwars.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/rust.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/reddead2.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/rustedmoss.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/batmancollection.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/civilization.jpeg" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/cod-war.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/codmodernwar.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/darksouls.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/destiny.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/diabloiv.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/dragonsdogma.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/eldenring.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/fable.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/fallguys.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/the finals.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/ittakestwo.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/mortalkombat1.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/willywonderland.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/the finals.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/resident4.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/pubg.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/multiversus.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/metalgear.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/cuphead.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>
-						<a href=""><img src="img/suicide.jpeg" alt="game" class="float-center img-thumbnail bg-dark"></a>		
+					<a href="gamestray.html"><img src="img/cyber77.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamestray.html"><img src="img/avatar.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamestray.html"><img src="img/stray.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamestray.html"><img src="img/fortnite.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamestray.html"><img src="img/minecraft.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamestray.html"><img src="img/witcher3.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamebaldur.html"><img src="img/baldursgate.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamestray.html"><img src="img/hogwarts2.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamestray.html"><img src="img/civilization.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamestray.html"><img src="img/gta v.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamestray.html"><img src="img/alanwakeii.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamestray.html"><img src="img/apex.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamestray.html"><img src="img/tekken8.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamestray.html"><img src="img/starwars.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamestray.html"><img src="img/rust.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamestray.html"><img src="img/reddead2.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamestray.html"><img src="img/rustedmoss.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamestray.html"><img src="img/batmancollection.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamestray.html"><img src="img/civilization.jpeg" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamestray.html"><img src="img/cod-war.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamestray.html"><img src="img/codmodernwar.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamestray.html"><img src="img/darksouls.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamestray.html"><img src="img/destiny.jpeg" alt="game" class="float-center img-thumbnail bg-dark border-0"></a>
+					<a href="gamediablo.html"><img src="img/diabloiv.jpeg" alt="game" class="float-center img-thumbnail bg-dark border-0"></a>
+					<a href="gamestray.html"><img src="img/dragonsdogma.jpeg" alt="game" class="float-center img-thumbnail bg-dark border-0"></a>
+					<a href="gamestray.html"><img src="img/eldenring.jpeg" alt="game" class="float-center img-thumbnail bg-dark border-0"></a>
+					<a href="gamestray.html"><img src="img/fable.jpeg" alt="game" class="float-center img-thumbnail bg-dark border-0"></a>
+					<a href="gamestray.html"><img src="img/fallguys.jpeg" alt="game" class="float-center img-thumbnail bg-dark border-0"></a>
+					<a href="gamestray.html"><img src="img/the finals.jpeg" alt="game" class="float-center img-thumbnail bg-dark border-0"></a>
+					<a href="gamestray.html"><img src="img/ittakestwo.jpeg" alt="game" class="float-center img-thumbnail bg-dark border-0"></a>
+					<a href="gamestray.html"><img src="img/mortalkombat1.jpeg" alt="game" class="float-center img-thumbnail bg-dark border-0"></a>
+					<a href="gamestray.html"><img src="img/willywonderland.jpeg" alt="game" class="float-center img-thumbnail bg-dark border-0"></a>
+					<a href="gamestray.html"><img src="img/the finals.jpeg" alt="game" class="float-center img-thumbnail bg-dark border-0"></a>
+					<a href="gamestray.html"><img src="img/resident4.jpeg" alt="game" class="float-center img-thumbnail bg-dark border-0"></a>
+					<a href="gamestray.html"><img src="img/pubg.jpeg" alt="game" class="float-center img-thumbnail bg-dark border-0"></a>
+					<a href="gamestray.html"><img src="img/multiversus.jpeg" alt="game" class="float-center img-thumbnail bg-dark" border-0></a>
+					<a href="gamestray.html"><img src="img/metalgear.jpeg" alt="game" class="float-center img-thumbnail bg-dark border-0"></a>
+					<a href="gamestray.html"><img src="img/assassinscreed.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+					<a href="gamecuphead.html"><img src="img/cuphead.jpeg" alt="game" class="float-center img-thumbnail bg-dark border-0"></a>
+					<a href="gamestray.html"><img src="img/suicide.jpeg" alt="game" class="float-center img-thumbnail bg-dark border-0"></a>		
 				</ul>
 			</div>
 		</div>
 
-		<footer class="text-bg-dark p-4 text-center">
+		<footer class="text-center bg-black pe-4">
 			Criado por Lucas Dziurza.
 			As imagens não pertencem a este site. 
 		</footer>
 
 		<script src="js/bootstrap.bundle.js"></script>
-</body>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	</body>
 </html>
