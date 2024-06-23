@@ -1,10 +1,5 @@
 @charset "UTF-8";
-/*!
- * Bootstrap  v5.2.2 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -49,7 +44,8 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  --bs-font-sans-serif: "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -3796,10 +3792,10 @@ textarea.form-control-lg {
 .navbar > .container-lg,
 .navbar > .container-xl,
 .navbar > .container-xxl {
-  display: flex;
+  /* display: flex;
   flex-wrap: inherit;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 .navbar-brand {
   padding-top: var(--bs-navbar-brand-padding-y);
@@ -4197,8 +4193,8 @@ textarea.form-control-lg {
   --bs-card-cap-padding-x: 1rem;
   --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
   --bs-card-cap-color: ;
-  --bs-card-height: ;
-  --bs-card-color: ;
+  --bs-card-height: 5rem;
+  --bs-card-color: #fff;
   --bs-card-bg: #fff;
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 2rem;
@@ -10875,7 +10871,69 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Exemplo de uso de vh */
+  }
+
+  .container {
+    width: 80vw; /* Exemplo de uso de vw */
+    margin: auto;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('img/aZKLRcja8HL03ODxYMZDfaH.webp'); */
+    background-size: cover;
+    background-position: center;
+  }
+
+  .content {
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+
+  .btn-container {
+    margin-top: 20px; /* Espaçamento entre os botões e o texto */
+  }
+ 
+  .card > img {
+  width: 300px;
+  height: 100px;
+  }
+
+  .rating {
+    display: inline-block;
+    font-size: 25px;
+  }
+  .rating input {
+    display: none;
+  }
+  .rating label {
+    cursor: pointer;
+    width: 40px;
+    text-align: center;
+    color: #aaa;
+    font-size: 30px;
+  }
+  .rating label:hover,
+  .rating label:hover ~ label,
+  .rating input:checked ~ label {
+    color: #ffcc00;
+  }
+
+
 }
-
-/*# sourceMappingURL=bootstrap.css.map */
-

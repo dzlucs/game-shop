@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<title>Gameboxd</title>
+		<meta charset="utf-8">
+		<meta name="referrer" content="never">
+		<meta name="referrer" content="no-referrer">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+	  />
+	</head>
+
+	<body>
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top mb-3" aria-label="Offcanvas navbar large">
+			<div class="container">
+				<a class="navbar-brand" href="#">Gameboxd</a>
+				<img src="img/logoS.svg" alt="logo" style="height: 30px; width: auto;">
+				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+					<div class="offcanvas-header">
+						<h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
+						<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+					</div>
+					<div class="offcanvas-body">
+						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#">Inicio</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Histórias</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Produtos
+								</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="#">Jogos</a></li>
+									<li><a class="dropdown-item" href="#">Livros</a></li>
+									<li>
+										<hr class="dropdown-divider">
+									</li>
+									<li><a class="dropdown-item" href="#">Brinquedos</a></li>
+								</ul>
+							</li>
+						</ul>
+						<form class="d-flex mt-3 mt-lg-0" role="search">
+							<input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+							<button class="btn btn-outline-light" type="submit">Pesquisar</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+
+        <div class="container-fluid bg-dark text-light text-center shadow p-3 mb-5 bg-body-tertiary rounded">
+			<div class="row justify-content-end align-items-center">
+				<div class="col-md-3 order-md-1">
+					<img src="img/stray.jpeg" class="img-fluid rounded-4" alt="game">
+				</div>
+				<div class="col-md-9 order-md-2">
+					<div class="card-body">
+						<h1 class="card-title">Stray</h1>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis turpis</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div>
+			<h2>Dê uma nota de 0 a 10:</h2>
+			<input type="range" min="0" max="10" value="5" class="slider" id="ratingSlider">
+			<p class="result">Nota selecionada: <span id="ratingValue">5</span></p>
+		</div>
+
+
+	<script src="js/script.js"></script>
+	<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

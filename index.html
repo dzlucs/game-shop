@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 	<head>
 		<title>Gameboxd</title>
 		<meta charset="utf-8">
@@ -7,98 +8,217 @@
 		<meta name="referrer" content="no-referrer">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 	</head>
-	<body>
 
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top mb-3" aria-label="Offcanvas navbar large">
-			<div class="container">
-				<a class="navbar-brand" href="#">Gameboxd</a>
+	<body class="bg-dark text-light">
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" style="height: 3.5rem;" aria-label="Offcanvas navbar large">
+			<div class="container-fluid">
+				<a class="navbar-brand justify-content-start" href="#">Gameboxd</a>
+				<img src="img/logoS.svg" alt="logo" class="justify-content-center">
 				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+				<div class=" offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
 					<div class="offcanvas-header">
 						<h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
 						<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 					</div>
-					<!-- <div class="offcanvas-body">
+					<div class="offcanvas-body ">
 						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="#">Início</a>
+								<a class="nav-link active" aria-current="page" href="#">Homepage</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Histórias</a>
+								<a class="nav-link" href="games.html">Games</a>
 							</li>
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-									Produtos
+									Profile
 								</a>
 								<ul class="dropdown-menu">
-									<li><a class="dropdown-item" href="#">Jogos</a></li>
-									<li><a class="dropdown-item" href="#">Livros</a></li>
-									<li>
-										<hr class="dropdown-divider">
-									</li>
-									<li><a class="dropdown-item" href="#">Brinquedos</a></li>
+									<li><a class="dropdown-item" href="#">Share</a></li>
+									<li><a class="dropdown-item" href="#">Settings</a></li>
+									<li><a class="dropdown-item" href="#">Logout</a></li>
 								</ul>
 							</li>
 						</ul>
 						<form class="d-flex mt-3 mt-lg-0" role="search">
-							<input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-							<button class="btn btn-outline-light" type="submit">Pesquisar</button>
+							<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn btn-outline-light" type="submit">Search</button>
 						</form>
-					</div> -->
+					</div>
 				</div>
 			</div>
 		</nav>
 
-		<main class="container">
+		
 
-			<div class="column">
-			<div class="container">
-				<p class="text-center">Game what matters.</p>
-				<p class="text-center">Meet friends.</p>
-				<p class="text-center">Exchange experiences.</p>
+		<div>
+			<h1 class="text-center">Discover.</h1>
+			<h1 class="text-center">Register.</h1>
+			<h1 class="text-center">Play.</h1>
+			<p class="text-center fw-bold">Find your next game now.</p>
+		</div>
+
+		<div class="container">
+			<div class="text-center">
+				<!-- animação CSS -->
+				<h1 class="animate__animated animate__bounce ">Favorite Games</h1>
+
+				<ul class="list-unstyled">
+
+						<a href=""><img src="img/cyber77.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/avatar.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/stray.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/fortnite.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/minecraft.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/witcher3.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/baldursgate.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/hogwarts2.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/civilization.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/assassinscreed.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/gta v.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/alanwakeii.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0" ></a>
+						<a href=""><img src="img/apex.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/tekken8.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/starwars.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/rust.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/reddead2.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/rustedmoss.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0" ></a>
+						<a href=""><img src="img/batmancollection.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/civilization.jpeg" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/cod-war.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/codmodernwar.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/darksouls.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/destiny.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/diabloiv.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/dragonsdogma.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/eldenring.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/fable.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/fallguys.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/the finals.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/ittakestwo.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+						<a href=""><img src="img/mortalkombat1.jpeg" alt="game" class="float-center img-thumbnail bg-dark border border-0"></a>
+
+						
+				</ul>
+				
 			</div>
+		</div>
 
 
-			<div class="container-fluid">
-				<div class="row">
-					
-					<div class="col-6 col-md-3 col-lg-2">
-						<img class="card-img-top" src="" alt="Imagem do card">
-						<div class="card-body"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- ////////////// -->
+
+
+		<div class="container mb-4">
+			<div class="row">
+
+				<aside class="d-block d-md-none mb-3">
+					<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 1"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<a href="">
+									<img src="img/alanwakeii.jpeg" class="d-block w-100" alt="Propaganda">
+									<div class="carousel-caption">
+										<h5>Propaganda 1</h5>
+									</div>
+								</a>
+							</div>
+							<div class="carousel-item">
+								<a href="">
+									<img src="img/apex.jpeg" class="d-block w-100" alt="Propaganda">
+									<div class="carousel-caption">
+										<h5>Propaganda 2</h5>
+									</div>
+								</a>
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
 					</div>
+				</aside>
+		
 
-					<div class="col-6 col-md-3 col-lg-2">
-						<img class="card-img-top" src="" alt="Imagem do card">
-						<div class="card-body"></div>
-				</div>
+				<main class="col-md-9">
 
-					<div class="col-6 col-md-3 col-lg-2">
-						<img class="card-img-top" src="" alt="Imagem do card">
-						<div class="card-body"></div>
-				</div>
+					<article>
+						<nav aria-label="breadcrumb">
+							<ol class="breadcrumb bg-transparent p-0">
+								<li class="breadcrumb-item"><a href="#">Início</a></li>
+								<li class="breadcrumb-item"><a href="#">Histórias</a></li>
+								<li class="breadcrumb-item active" aria-current="page">Lorem Ipsum</li>
+							</ol>
+						</nav>
 
-					<div class="col-6 col-md-3 col-lg-2">
-						<img class="card-img-top" src="" alt="Imagem do card">
-						<div class="card-body"></div>
-				</div>
-				
+						<h1>A volta do Lorem Iprum</h1>
+						<p><img src="" alt="RPG" class="w-100 shadow"></p>
+						<p>Lorem <span class="fw-bold">turpis</span>Ipsum</p>
 
+						<figure class="text-end border-warning rounded-4 p-2 pe-4">
+							<blockquote class="blockquote">
+								<p>A well known element.</p>
+							</blockquote>
+							<figcaption class="blockquote-footer mb-0">
+								Someone famous in <cite title="Source title">Source title</cite>
+							</figcaption>
+						</figure>
 
+						<p>Text text text</p>
 
+						<h2>Old school lorem ipsum</h2>
+						<p>text text text</p>
+						<p>text text text</p>
+					</article>
+				</main>
 
-				
+				<aside class="col-md-3">
+					<h5 class="mb-3">Patrocinadores</h5>
+					<ul class="list-unstyled">
+						<li class="mb-3">
+							<a href=""><img src="img/alanwakeii.jpeg" alt="Propaganda" class="img-thumbnail"></a>
+						</li>
+						<li class="mb-3">
+							<a href=""><img src="img/avatar.jpeg" alt="Propaganda" class="img-thumbnail"></a>
+						</li><li class="mb-3">
+							<a href=""><img src="img/baldursgate.jpeg" alt="Propaganda" class="img-thumbnail"></a>
+						</li>
+					</ul>
+				</aside>
 			</div>
-			</div>
+		</div>
 
-		</main>
-
-		<footer class="text-bg-dark p-4 text-center small">
-			Gameboxd Ltda.
+		<footer class="text-center bg-black pe-4">
+			Criado por Lucas Dziurza.
+			As imagens não pertencem a este site. 
 		</footer>
 
 		<script src="js/bootstrap.bundle.js"></script>
-</body>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	</body>
 </html>

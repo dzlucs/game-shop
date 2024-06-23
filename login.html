@@ -8,58 +8,43 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/bootstrap.css">
 	</head>
+
 	<body>
-
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top mb-3" aria-label="Offcanvas navbar large">
-			<div class="container">
-				<a class="navbar-brand" href="#">Gameboxd</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
-					<div class="offcanvas-header">
-						<h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
-						<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	<main class="container d-flex flex-column align-items-center justify-content-center vh-100 bg-dark text-light">
+		<div class="row">
+				<div class="col text-center">
+				<img src="img/logo.svg" class="mb-1">
+				<h1 class="text-center">Welcome to Gameboxd</h1>
+				<p>Sign-in to your account and start the adventure!</p>
+				<form class="container">
+					<div class="mb-3">
+						<input type="text" class="form-control" id="username" placeholder="Username or e-mail" required pattern="^[a-zA-Z0-9_-]{3,15}$" title="Nome de usuário deve ter entre 3 e 15 caracteres e pode conter letras, números, hifens e underscores.">
 					</div>
-					
-				</div>
+					<div class="mb-3">
+						<input type="password" class="form-control" id="password" placeholder="Password" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" title="A senha deve ter no mínimo 8 caracteres, incluindo letras e números.">
+					</div>		
+					<div class="mb-3 form-check small">
+						<input type="checkbox" class="form-check-input" id="rememberme">
+						<label class="form-check-label" for="newsletter">Remember me </label>
+						<a href="#">Forgot Password?</a>
+					</div>		
+					<button type="button" class="btn btn-success w-100">Login</button>
+				</form>
 			</div>
-		</nav>
+		</div>
+	</main>
 
-		<main class="container text-center">
+	<script src="js/bootstrap.bundle.js"></script>
+	<script>
+		document.querySelector('form').addEventListener('submit', function(e) {
+			const password = document.getElementById('password').value;
+			const confirmPassword = document.getElementById('confirmPassword').value;
 
-			<div class="column">
-			<div class="container">
-                <img class="small" src="">
-                <p class="text-center">Welcome</p>
-				<p class="text-center">Game what matters.</p>
-				<p class="text-center">Meet friends.</p>
-				<p class="text-center">Exchange experiences.</p>
-			</div>
-
-
-			<div class="container-fluid">
-				<div class="row">
-					
-					<div>
-						<button type="button" class="btn btn-success">Login</button>
-                        <button type="button" class="btn btn-primary">Register</button>
-
-					</div>
-
-
-
-
-				
-			</div>
-			</div>
-
-		</main>
-
-		<footer class="text-bg-dark p-4 text-center small">
-			Gameboxd Ltda.
-		</footer>
-
-		<script src="js/bootstrap.bundle.js"></script>
+			if (password !== confirmPassword) {
+				e.preventDefault();
+				alert('As senhas não coincidem!');
+			}
+		});
+	</script>
 </body>
 </html>

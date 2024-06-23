@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gameboxd</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            .hero {
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+            .hero img {
+                width: 100%;
+                height: auto;
+            }
+            .hero .overlay {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .features {
+                padding: 20px 0;
+            }
+            .features .card {
+                border: none;
+                text-align: center;
+            }
+            .features .card-body {
+                background-color: #343a40;
+                color: white;
+                border-radius: 10px;
+            }
+            .games-section {
+                padding: 20px 0;
+            }
+            .games-section img {
+                width: 100%;
+                height: auto;
+            }
+            .footer {
+                background-color: #343a40;
+                color: white;
+                padding: 20px 0;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body class="bg-dark text-light">
+
+        <nav class="navbar primary navbar-expand-lg navbar-light bg-light">
+            <img src="img/logoS.svg">
+            <a class="navbar-brand" href="#">Gameboxd</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+
+        <!-- <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <button class="dropdown-item" type="button">Action</button>
+            <button class="dropdown-item" type="button">Another action</button>
+            <button class="dropdown-item" type="button">Something else here</button>
+            </div>
+        </div> -->
+
+
+        <div class="container">
+        <div class="container d-flex justify-content-center">
+            <div class="">Flex item 1</div>
+            <div class="">Flex item 2</div>
+            <div class="">Flex item 3</div>
+            <div class="card">
+                <div class="card-body ">
+                  <img class="img-fluid" src="img/aZKLRcjaZ8HL03ODxYMZDfaH.webp">
+                </div>
+              </div>
+          </div>
+        </div>
+    
+
+
+
+
+
+
+        <!-- Features Section -->
+        <section class="features text-center">
+            <div class="container">
+                <h2 class="mb-4">Gameboxd lets you...</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="bi bi-controller"></i>
+                                <p class="card-text">Register all the games you’ve ever played (or start from scratch)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="bi bi-star"></i>
+                                <p class="card-text">Rate each game on a five star scale and share it with the world</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="bi bi-pencil"></i>
+                                <p class="card-text">Write and share reviews and follow friends to read theirs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Favorite Games Section -->
+        <section class="games-section">
+            <div class="container mt-5">
+                <h2 class="mb-4">Favorite Games</h2>
+                <div class="row g-4">
+                    <div class="card col-6 col-md-3">
+                        <img src="img/aZKLRcjaZ8HL03ODxYMZDfaH.webp" alt="Favorite Game 1">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img src="path-to-game-image.jpg" alt="Favorite Game 2">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img src="path-to-game-image.jpg" alt="Favorite Game 3">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img src="path-to-game-image.jpg" alt="Favorite Game 4">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        
+
+
+        <!-- Popular This Week Section -->
+        <section class="games-section">
+            <div class="container">
+                <h2 class="mb-4">Popular This Week</h2>
+                <div class="row g-4">
+                    <div class="col-12">
+                        <div class="d-flex">
+                            <img src="path-to-game-image.jpg" alt="Popular Game" class="me-3" style="width: 100px; height: auto;">
+                            <div>
+                                <h5>Death Stranding</h5>
+                                <p>2019 <span class="badge bg-warning text-dark">★★★★★</span></p>
+                                <p>9 blinkers in and I thought that fetus was talking to me...</p>
+                                <p><i class="bi bi-heart"></i> 4,484 likes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repeat above block for each popular game -->
+                    <div class="col-12 text-center">
+                        <a href="#" class="btn btn-outline-light">More...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; Gameboxd Limited</p>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-50e5/tbi0Er4f9jHJicr2GkElUq0Jg+2VX+58WUlTDfoAt1GEPQf/pB9RBgLTo1G" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-b4gt1jrGC7Jh4AgTPSdUtOBvfO8sh/jD5G5fFg+1RSw+8a/JmGn5+AyUJyICl5n0" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
